@@ -1,3 +1,11 @@
+import React from "react";
+
+import netflix from "../assets/netflix.jpg";
+import ecommerce from "../assets/ecommerce.jpg";
+import loan from "../assets/loan.jpg";
+import houseprice from "../assets/house.jpg";
+import walmart from "../assets/walmart.jpg";
+
 function Portfolio() {
   return (
     <section id="portfolio" className="portfolio">
@@ -21,7 +29,7 @@ function Portfolio() {
           rel="noreferrer"
           className="portfolio-card"
         >
-          <img src="/images/netflix.jpg" alt="Netflix" />
+          <img src={netflix} alt="Netflix" />
 
           <div className="portfolio-content">
 
@@ -48,7 +56,7 @@ function Portfolio() {
           rel="noreferrer"
           className="portfolio-card"
         >
-          <img src="/images/ecommerce.jpg" alt="Ecommerce" />
+          <img src={ecommerce} alt="Ecommerce" />
 
           <div className="portfolio-content">
 
@@ -75,7 +83,7 @@ function Portfolio() {
           rel="noreferrer"
           className="portfolio-card"
         >
-          <img src="/images/loan.jpg" alt="Loan" />
+          <img src={loan} alt="Loan" />
 
           <div className="portfolio-content">
 
@@ -102,7 +110,7 @@ function Portfolio() {
           rel="noreferrer"
           className="portfolio-card"
         >
-          <img src="/images/house.jpg" alt="House Price" />
+          <img src={houseprice} alt="House Price" />
 
           <div className="portfolio-content">
 
@@ -129,7 +137,7 @@ function Portfolio() {
           rel="noreferrer"
           className="portfolio-card"
         >
-          <img src="/images/walmart.jpg" alt="Walmart" />
+          <img src={walmart} alt="Walmart" />
 
           <div className="portfolio-content">
 
@@ -152,7 +160,7 @@ function Portfolio() {
       </div>
 
     </section>
-  )
+  );
 }
 
-export default Portfolio
+export default Portfolio;
